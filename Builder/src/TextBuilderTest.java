@@ -1,7 +1,7 @@
-
 class TextBuilder{
 	
 	private String text = "";
+	
 	
 	public TextBuilder() {
 		
@@ -28,8 +28,8 @@ public class TextBuilderTest {
 	public static void main(String[] args) {
 		TextBuilder text = new TextBuilder();
 		text.append("A ").append("B ");
-		System.out.println(text.toString());
+		System.out.println(text);
 		text.append("C ");
-		System.out.println(text.toString());
+		System.out.println(text);
 	}
 }
